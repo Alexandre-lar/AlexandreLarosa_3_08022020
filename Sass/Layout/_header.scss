@@ -1,0 +1,11 @@
+.header {
+  border-bottom: 1px solid rgb(201, 198, 198);
+  display: flex;
+  justify-content: center;
+  padding: $padding-10;
+
+  .header__title {
+    text-decoration: none;
+    color: black;
+  }
+}
