@@ -14,6 +14,17 @@ h1 {
 
 h3 {
   font-size: 22px;
+  padding-top: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Resto__text p {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 h5 {
@@ -91,7 +102,7 @@ h5 {
 
 .Fonction__box {
   display: flex;
-  width: 95%;
+  width: 97%;
   border-radius: 12px;
   margin: 30px;
   box-shadow: 1px -1px 4px 3px #dddddd;
@@ -109,6 +120,43 @@ h5 {
 i {
   font-size: 17px;
   margin-right: 20px;
+}
+
+.Resto {
+  padding: 40px 20px;
+  background: #e7e7e7;
+}
+.Resto .Resto__box {
+  background: white;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.Resto__box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Resto_link {
+  text-decoration: none;
+  color: black;
+}
+
+.Resto-text {
+  line-height: 22px;
+  margin: 13px;
+  padding-bottom: 15px;
+}
+
+.new-resto {
+  color: #008769;
+  background: #99e2d0;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 9px;
 }
 
 /*# sourceMappingURL=main.css.map */

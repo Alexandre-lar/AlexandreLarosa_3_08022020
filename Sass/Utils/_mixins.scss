@@ -22,3 +22,13 @@
   border-bottom: 3px solid $tertiaire;
   width: 40px;
 }
+
+// encadré nouveau
+
+@mixin new-resto {
+  color: $new-resto;
+  background: $tertiaire;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 9px;
+}
