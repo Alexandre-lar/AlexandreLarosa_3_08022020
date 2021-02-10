@@ -1,0 +1,18 @@
+// button accueil
+
+.btn_pink {
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: $border-radius-30;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  outline: none;
+  box-shadow: 2px 2px 4px rgb(184, 184, 184);
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 2px 2px 2px 1px gray;
+    background: lighten($color: #d369b5, $amount: 2);
+  }
+}

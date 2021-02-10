@@ -22,6 +22,22 @@ h5 {
   font-weight: 600;
 }
 
+.btn_pink {
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  outline: none;
+  box-shadow: 2px 2px 4px #b8b8b8;
+  cursor: pointer;
+}
+.btn_pink:hover {
+  box-shadow: 2px 2px 2px 1px gray;
+  background: #d571b9;
+}
+
 .header {
   border-bottom: 1px solid #c9c6c6;
   display: flex;
