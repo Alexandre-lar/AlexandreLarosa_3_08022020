@@ -1,0 +1,24 @@
+// Fonctionnement
+@mixin number-fonction {
+  background-color: $primary;
+  border-radius: 30px;
+  padding: 3.5px 7.3px;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  left: 18px;
+}
+
+// Radius image restaurants
+
+@mixin border-radius-rest {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+// border Menu tittle
+
+@mixin border-title-menu {
+  border-bottom: 3px solid $tertiaire;
+  width: 40px;
+}

@@ -1,0 +1,66 @@
+// Localisation
+
+.localisation {
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  padding: 15px;
+  background: $back-1;
+
+  .fas {
+    padding-right: $padding-10;
+  }
+}
+
+// Explorer
+
+.explo {
+  display: block;
+  background: $back-2;
+  text-align: center;
+  padding: $padding-30;
+
+  .explo__title {
+    font-size: 25px;
+    padding: $padding-10 0px;
+  }
+
+  .explo__text {
+    padding-bottom: 30px;
+    font-weight: 300;
+  }
+}
+
+// Fonctionnement
+
+.number {
+  @include number-fonction;
+}
+
+.Fonction {
+  margin: 40px 20px;
+}
+
+.Fonction__box {
+  display: flex;
+  width: 95%;
+  border-radius: 12px;
+  margin: 30px;
+  box-shadow: 1px -1px 4px 3px #dddddd;
+  padding: 20px;
+  margin-left: 8px;
+  justify-content: center;
+
+  &:hover {
+    background: rgb(244, 234, 254);
+  }
+
+  &:hover i {
+    color: $primary;
+  }
+}
+
+i {
+  font-size: 17px;
+  margin-right: 20px;
+}
