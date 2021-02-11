@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 : Dynamisez une page web avec des animations CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandre-lar/AlexandreLarosa_3_08022020.git"
+  },
+  "author": "Alexandre Larosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandre-lar/AlexandreLarosa_3_08022020/issues"
+  },
+  "homepage": "https://github.com/Alexandre-lar/AlexandreLarosa_3_08022020#readme",
+  "dependencies": {
+    "sass": "^1.32.6"
+  }
+}
