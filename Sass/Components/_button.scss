@@ -16,3 +16,14 @@
     background: lighten($color: #d369b5, $amount: 2);
   }
 }
+
+// Fleche retour index.html
+
+.header__return {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}

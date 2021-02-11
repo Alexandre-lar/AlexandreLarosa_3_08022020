@@ -49,6 +49,15 @@ h5 {
   background: #d571b9;
 }
 
+.header__return {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+
 .header {
   border-bottom: 1px solid #c9c6c6;
   display: flex;
