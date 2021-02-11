@@ -38,7 +38,7 @@
 }
 
 .Fonction {
-  margin: 40px 20px;
+  margin: $padding-bloc;
 }
 
 .Fonction__box {
@@ -68,7 +68,7 @@ i {
 // Restaurants
 
 .Resto {
-  padding: 40px 20px;
+  padding: $padding-bloc;
   background: $back-1;
 
   .Resto__box {

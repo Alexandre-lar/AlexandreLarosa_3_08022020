@@ -60,6 +60,43 @@ h5 {
   color: black;
 }
 
+.footer {
+  padding: 30px 20px;
+  background: #2f2f2f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer__title {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.footer li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.fa-utensils,
+.fa-hands-helping {
+  font-size: 13px;
+}
+
+.fa-utensils {
+  margin-right: 15px;
+}
+
+.fa-hands-helping {
+  margin-right: 5px;
+}
+
 .localisation {
   display: flex;
   font-size: 17px;
