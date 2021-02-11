@@ -17,6 +17,26 @@
   }
 }
 
+// bouton commander
+
+.btn_order {
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: $border-radius-30;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  outline: none;
+  box-shadow: 2px 2px 4px rgb(184, 184, 184);
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:hover {
+    box-shadow: 2px 2px 2px 1px gray;
+    background: lighten($color: #d369b5, $amount: 2);
+  }
+}
 // Fleche retour index.html
 
 .header__return {
