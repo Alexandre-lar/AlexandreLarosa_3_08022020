@@ -21,7 +21,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
+h1,
+.footer__title {
   font-family: "Shrikhand", cursive;
 }
 
