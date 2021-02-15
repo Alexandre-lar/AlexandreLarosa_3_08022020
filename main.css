@@ -269,7 +269,7 @@ i {
 
 .Resto__box img {
   width: 100%;
-  height: 180px;
+  height: 160px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -287,8 +287,8 @@ i {
 
 .Resto-text {
   line-height: 22px;
-  margin: 13px;
-  padding-bottom: 15px;
+  margin: 8px 13px;
+  padding-bottom: 10px;
 }
 
 .new-resto {
