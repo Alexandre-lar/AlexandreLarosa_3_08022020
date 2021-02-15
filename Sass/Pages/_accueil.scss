@@ -43,6 +43,7 @@
 
 .Fonction__box {
   display: flex;
+  background: $back-2;
   width: 97%;
   border-radius: 12px;
   margin: 30px;
@@ -63,6 +64,7 @@
 i {
   font-size: 17px;
   margin-right: 20px;
+  color: gray;
 }
 
 // Restaurants

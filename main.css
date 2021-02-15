@@ -234,6 +234,7 @@ h5 {
 
 .Fonction__box {
   display: flex;
+  background: whitesmoke;
   width: 97%;
   border-radius: 12px;
   margin: 30px;
@@ -252,6 +253,7 @@ h5 {
 i {
   font-size: 17px;
   margin-right: 20px;
+  color: gray;
 }
 
 .Resto {
