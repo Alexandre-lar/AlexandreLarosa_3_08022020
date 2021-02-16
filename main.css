@@ -27,6 +27,7 @@ body {
 }
 
 h1,
+h2,
 .footer__title {
   font-family: "Shrikhand", cursive;
 }
@@ -199,6 +200,10 @@ h5 {
 
 .fa-hands-helping {
   margin-right: 5px;
+}
+
+footer i {
+  color: white;
 }
 
 .localisation {
