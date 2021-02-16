@@ -45,7 +45,7 @@ h4 {
 h5 {
   padding: 10px;
   padding-bottom: 5px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   display: block;
 }
@@ -150,12 +150,13 @@ h5 {
   justify-content: space-between;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 13.5px;
+  font-size: 13.3px;
   text-overflow: ellipsis;
 }
 
 .price {
   margin-right: 20px;
+  font-weight: bold;
 }
 
 .order {
