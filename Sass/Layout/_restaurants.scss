@@ -16,6 +16,7 @@
   .Menu__title {
     font-size: 22px;
     padding: 25px 20px;
+    display: flex;
   }
 }
 
@@ -25,7 +26,7 @@
   display: block;
   padding-top: 5px;
   margin-bottom: 40px;
-  animation: box-menu 2.5s ease-in;
+  // animation: box-menu 2.5s ease-in;
 
   .box__title {
     font-size: 16px;
