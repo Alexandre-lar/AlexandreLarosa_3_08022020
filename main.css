@@ -309,7 +309,10 @@ i {
   background: #99e2d0;
   font-size: 14px;
   font-weight: 600;
-  padding: 5px 9px;
+  padding: 5px 14px;
+  position: absolute;
+  right: 35px;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */

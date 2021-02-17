@@ -105,4 +105,7 @@ i {
 
 .new-resto {
   @include new-resto;
+  position: absolute;
+  right: 35px;
+  margin-top: 15px;
 }
