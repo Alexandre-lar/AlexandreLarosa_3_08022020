@@ -98,6 +98,8 @@ i {
 }
 
 .Resto-text {
+  display: flex;
+  flex-direction: column;
   line-height: 22px;
   margin: 8px 13px;
   padding-bottom: $padding-10;
