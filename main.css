@@ -92,6 +92,8 @@ h5 {
   font-size: 16px;
   font-weight: 600;
   display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .btn_pink {
@@ -168,7 +170,6 @@ h5 {
 }
 
 .box-list {
-  display: block;
   padding-top: 5px;
   margin-bottom: 40px;
 }
@@ -187,21 +188,30 @@ h5 {
   background: white;
   border-radius: 10px;
   margin: 15px 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   display: block;
+  height: 60px;
 }
-.Meal-content .Meal__text {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+.Meal-content .Meal__text p {
+  display: block;
   padding-left: 10px;
-  padding-bottom: 10px;
   font-size: 13.3px;
   text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  width: 80%;
 }
 
 .price {
-  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
+  padding-right: 10px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .order {
@@ -249,6 +259,12 @@ footer i {
   color: white;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+}
 .localisation {
   display: flex;
   font-size: 17px;
