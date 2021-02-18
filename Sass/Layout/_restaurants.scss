@@ -25,7 +25,7 @@
 .box-list {
   padding-top: 5px;
   margin-bottom: 40px;
-  // animation: box-menu 2.5s ease-in;
+  animation: box-menu 2.2s ease-in;
 
   .box__title {
     font-size: 16px;
@@ -74,4 +74,57 @@
 .order {
   display: flex;
   width: 100%;
+  background: $back-2;
+}
+
+@media only screen and (min-width: 1024px) {
+  // Aside img
+
+  .aside_img {
+    height: 340px;
+  }
+
+  // Resto
+
+  .Menu {
+    display: flex;
+    flex-flow: row nowrap;
+
+    .Menu__title {
+      justify-items: center;
+      align-items: center;
+    }
+  }
+
+  .box-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 80%;
+  }
+
+  .box__title {
+    padding-top: 25px;
+  }
+
+  .Meal-content {
+    margin-left: 4px;
+    margin-right: 30px;
+    max-width: 85%;
+  }
+
+  // heart
+
+  .heart-menu {
+    display: flex;
+
+    .fa-heart {
+      margin-top: 15px;
+      left: 25px;
+    }
+
+    .far {
+      position: absolute;
+    }
+  }
 }
