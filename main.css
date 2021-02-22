@@ -130,12 +130,6 @@ h5 {
   background: #d571b9;
 }
 
-@media only screen and (min-width: 1024px) {
-  .btn_order {
-    padding: 20px 60px;
-    font-size: 15px;
-  }
-}
 .header__return {
   font-size: 28px;
   text-decoration: none;

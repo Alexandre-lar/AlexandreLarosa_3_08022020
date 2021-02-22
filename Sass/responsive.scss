@@ -1,13 +1,55 @@
+//  Tablet
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  // Accueil
+
+  .Fonction__box {
+    font-size: 18px;
+  }
+
+  .Fonction__box i {
+    font-size: 18px;
+  }
+
+  // Accueil restaurants
+
+  .box-resto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .Resto_link {
+    width: 40%;
+  }
+
+  .Resto__box {
+    width: 100%;
+  }
+}
+
+// Desktop
+
 @media only screen and (min-width: 1024px) {
   //   Accueil
 
   .box {
     display: flex;
     flex-flow: row nowrap;
+    margin-top: 40px;
+  }
+
+  .Fonction__box {
+    justify-items: center;
+    padding-left: 0px;
   }
 
   .number {
-    visibility: hidden;
+    position: relative;
+    top: -35px;
+    left: 110px;
+    padding: 6px 20px;
   }
 
   //   Accueil restaurants
@@ -16,6 +58,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    margin-top: 40px;
   }
 
   .Resto_link {
@@ -26,13 +69,6 @@
     width: 100%;
   }
 
-  .new-resto {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-left: 34px;
-    width: 100.4%;
-  }
   // Aside img
 
   .aside_img {
@@ -46,8 +82,7 @@
     flex-flow: row nowrap;
 
     .Menu__title {
-      justify-items: center;
-      align-items: center;
+      justify-self: center;
     }
   }
 
@@ -74,8 +109,8 @@
     display: flex;
 
     .fa-heart {
-      margin-top: 15px;
-      left: 25px;
+      margin-top: 18px;
+      left: 28px;
     }
 
     .far {
