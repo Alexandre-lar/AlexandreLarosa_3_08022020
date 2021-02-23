@@ -31,12 +31,11 @@
 
   .Resto__box {
     width: 100%;
+    position: relative;
   }
 
   .new-resto {
-    position: initial;
-    display: flex;
-    justify-content: center;
+    position: absolute;
   }
 }
 
@@ -49,6 +48,11 @@
     display: flex;
     flex-flow: row nowrap;
     margin-top: 40px;
+  }
+
+  .Fonction h3 {
+    font-size: 28px;
+    text-align: center;
   }
 
   .Fonction__box {
@@ -65,21 +69,33 @@
 
   //   Accueil restaurants
 
+  .Resto h3 {
+    font-size: 28px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
   .box-resto {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 40px;
   }
 
   .Resto_link {
-    width: 35%;
+    width: 34%;
   }
 
   .Resto__box {
     width: 100%;
+    position: relative;
   }
 
+  .new-resto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
   // Aside img
 
   .aside_img {
