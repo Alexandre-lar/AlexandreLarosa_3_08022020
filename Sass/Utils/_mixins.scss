@@ -40,3 +40,10 @@
   font-weight: 600;
   padding: 5px 14px;
 }
+
+// margin auto
+
+@mixin margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}

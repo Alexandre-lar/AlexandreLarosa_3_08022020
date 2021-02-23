@@ -64,9 +64,6 @@
     display: flex;
     flex-flow: row nowrap;
   }
-  .Menu .Menu__title {
-    justify-self: center;
-  }
 
   .box-list {
     display: flex;
@@ -90,7 +87,7 @@
   }
   .heart-menu .fa-heart {
     margin-top: 18px;
-    left: 28px;
+    right: 20px;
   }
   .heart-menu .far {
     position: absolute;

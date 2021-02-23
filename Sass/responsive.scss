@@ -80,10 +80,6 @@
   .Menu {
     display: flex;
     flex-flow: row nowrap;
-
-    .Menu__title {
-      justify-self: center;
-    }
   }
 
   .box-list {
@@ -110,7 +106,7 @@
 
     .fa-heart {
       margin-top: 18px;
-      left: 28px;
+      right: 20px;
     }
 
     .far {

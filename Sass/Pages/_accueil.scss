@@ -23,11 +23,15 @@
   .explo__title {
     font-size: 25px;
     padding: $padding-10 0px;
+    width: 80%;
+    @include margin-auto;
   }
 
   .explo__text {
     padding-bottom: 30px;
     font-weight: 300;
+    width: 90%;
+    @include margin-auto;
   }
 }
 
