@@ -13,7 +13,7 @@
 }
 @keyframes loader {
   100% {
-    z-index: 0;
+    z-index: -10;
     opacity: 0;
   }
 }
@@ -78,7 +78,7 @@
   height: 100%;
   background-color: rgba(243, 243, 243, 0.9);
   animation: loader 100ms;
-  animation-delay: 3s;
+  animation-delay: 4s;
   animation-fill-mode: both;
 }
 
@@ -89,7 +89,7 @@
   border: solid 6px transparent;
   border-top-color: #99e2d0;
   border-bottom-color: #ff79da;
-  animation: spin 1s linear infinite;
+  animation: spin 1.3s linear infinite;
 }
 
 .loader-double:after {
@@ -103,6 +103,7 @@
   border: solid 6px transparent;
   border-top-color: #9356dc;
   border-bottom-color: #9356dc;
+  animation: spin 2s linear infinite;
 }
 
 * {

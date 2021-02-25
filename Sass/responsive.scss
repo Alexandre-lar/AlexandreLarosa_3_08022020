@@ -77,12 +77,14 @@
   .box-resto {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 40px;
   }
 
   .Resto_link {
     width: 34%;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .Resto__box {
