@@ -11,6 +11,19 @@
     margin-top: 0px;
   }
 }
+@keyframes box-menu-desktop {
+  0% {
+    opacity: 0;
+    margin-top: -80px;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 40px;
+  }
+}
 @keyframes loader {
   100% {
     z-index: -10;

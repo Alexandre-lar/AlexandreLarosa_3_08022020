@@ -109,11 +109,16 @@
     display: flex;
     flex-flow: row nowrap;
   }
-
+  .Menu__title {
+    position: absolute;
+    margin-top: -10px;
+  }
   .box-list {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-top: 40px;
+    animation: box-menu-desktop 3s;
     width: 80%;
   }
 
