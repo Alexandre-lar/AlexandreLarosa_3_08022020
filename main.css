@@ -119,6 +119,60 @@
   animation: spin 2s linear infinite;
 }
 
+.fa-check {
+  background-color: white;
+  border-radius: 50px;
+  color: #99e2d0;
+  padding: 1px 1px;
+}
+
+.check {
+  display: none;
+  background-color: #99e2d0;
+}
+
+.Meal-content:hover .check {
+  display: block;
+  position: relative;
+  height: 90px;
+  margin-top: -80px;
+  margin-left: 80%;
+  width: 100px;
+  animation: check 0.5s;
+}
+.Meal-content:hover .price {
+  animation: check-price 0.5s;
+  margin-right: 20%;
+}
+.Meal-content:hover .fa-check {
+  margin: 50% 16%;
+  animation: check-rotate 0.5s;
+}
+
+@keyframes check {
+  from {
+    margin-left: 110%;
+  }
+  to {
+    margin-left: 80%;
+  }
+}
+@keyframes check-price {
+  from {
+    margin-right: 0%;
+  }
+  to {
+    margin-right: 20%;
+  }
+}
+@keyframes check-rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
 * {
   padding: 0;
   margin: 0;
