@@ -53,10 +53,10 @@
 
 @keyframes check {
   from {
-    margin-left: 100%;
+    margin-left: 110%;
   }
   to {
-    margin-left: 83%;
+    margin-left: 84%;
   }
 }
 
@@ -75,5 +75,16 @@
   }
   to {
     transform: rotate(720deg);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  @keyframes check-tablet {
+    from {
+      margin-left: 110%;
+    }
+    to {
+      margin-left: 93%;
+    }
   }
 }

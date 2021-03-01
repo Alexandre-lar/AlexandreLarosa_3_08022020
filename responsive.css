@@ -30,6 +30,11 @@
   .new-resto {
     position: absolute;
   }
+
+  .Meal-content:hover .check {
+    margin-left: 93%;
+    animation: check-tablet 0.5s;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .box {
