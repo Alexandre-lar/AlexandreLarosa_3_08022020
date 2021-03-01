@@ -87,4 +87,13 @@
       margin-left: 93%;
     }
   }
+
+  @keyframes check-price-tablet {
+    from {
+      margin-right: 0%;
+    }
+    to {
+      margin-right: 10%;
+    }
+  }
 }
