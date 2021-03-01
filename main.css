@@ -104,7 +104,7 @@
   position: relative;
   height: 90px;
   margin-top: -80px;
-  margin-left: 90%;
+  margin-left: 83%;
   width: 95px;
   animation: check 0.5s;
 }
@@ -115,6 +115,12 @@
 .Meal-content:hover .fa-check {
   margin: 50% 16%;
   animation: check-rotate 0.5s;
+}
+.Meal-content:hover .Meal-text p {
+  width: 67.5%;
+}
+.Meal-content:hover h5 {
+  width: 240px;
 }
 
 @keyframes box-menu {
@@ -162,7 +168,7 @@
     margin-left: 100%;
   }
   to {
-    margin-left: 82%;
+    margin-left: 83%;
   }
 }
 @keyframes check-price {
@@ -179,14 +185,6 @@
   }
   to {
     transform: rotate(720deg);
-  }
-}
-@keyframes text-check-width {
-  from {
-    width: 80%;
-  }
-  to {
-    width: 60%;
   }
 }
 * {
@@ -230,6 +228,7 @@ h5 {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .btn_pink {
@@ -330,8 +329,9 @@ h5 {
   white-space: nowrap;
   display: block;
   height: 60px;
+  cursor: pointer;
 }
-.Meal-content .Meal__text p {
+.Meal-content .Meal-text p {
   display: block;
   padding-left: 10px;
   font-size: 13.3px;
@@ -339,7 +339,7 @@ h5 {
   overflow: hidden;
   white-space: nowrap;
   margin: 0;
-  width: 80%;
+  width: 85%;
 }
 
 .price {

@@ -115,7 +115,7 @@
     position: relative;
     height: 90px;
     margin-top: -80px;
-    margin-left: 90%;
+    margin-left: 83%;
     width: 95px;
     animation: check 0.5s;
   }
@@ -126,5 +126,13 @@
   & .fa-check {
     margin: 50% 16%;
     animation: check-rotate 0.5s;
+  }
+
+  & .Meal-text p {
+    width: 67.5%;
+  }
+
+  & h5 {
+    width: 240px;
   }
 }
