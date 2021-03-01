@@ -1,54 +1,3 @@
-// deroule menu
-@keyframes box-menu {
-  0% {
-    opacity: 0;
-    margin-top: -80px;
-  }
-
-  65% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-    margin-top: 0px;
-  }
-}
-
-@keyframes box-menu-desktop {
-  0% {
-    opacity: 0;
-    margin-top: -80px;
-  }
-
-  65% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-    margin-top: 40px;
-  }
-}
-// loader
-
-@keyframes loader {
-  100% {
-    z-index: -10;
-    opacity: 0;
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 // heart
 
 .heart {
@@ -169,7 +118,6 @@
     margin-left: 90%;
     width: 95px;
     animation: check 0.5s;
-    white-space: nowrap;
   }
   & .price {
     animation: check-price 0.5s;
@@ -178,38 +126,5 @@
   & .fa-check {
     margin: 50% 16%;
     animation: check-rotate 0.5s;
-  }
-
-  & .Meal-content {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-}
-
-@keyframes check {
-  from {
-    margin-left: 110%;
-  }
-  to {
-    margin-left: 83%;
-  }
-}
-
-@keyframes check-price {
-  from {
-    margin-right: 0%;
-  }
-  to {
-    margin-right: 20%;
-  }
-}
-
-@keyframes check-rotate {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(720deg);
   }
 }
