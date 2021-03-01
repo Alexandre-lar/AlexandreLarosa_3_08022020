@@ -57,6 +57,10 @@
   color: #9356dc;
   transform: scale(1);
   transition: 0.6s ease-out;
+  background: linear-gradient(#9356dc, #ff79da);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heart-menu {
@@ -66,7 +70,7 @@
 .heart-menu .fa-heart {
   margin-top: -55px;
   margin-right: 30px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .heart-menu .fas {
@@ -79,6 +83,10 @@
   color: #9356dc;
   transform: scale(1);
   transition: 0.6s ease-out;
+  background: linear-gradient(#9356dc, #ff79da);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .loader {
@@ -136,9 +144,10 @@
   position: relative;
   height: 90px;
   margin-top: -80px;
-  margin-left: 80%;
-  width: 100px;
+  margin-left: 90%;
+  width: 95px;
   animation: check 0.5s;
+  white-space: nowrap;
 }
 .Meal-content:hover .price {
   animation: check-price 0.5s;
@@ -148,13 +157,18 @@
   margin: 50% 16%;
   animation: check-rotate 0.5s;
 }
+.Meal-content:hover .Meal-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 @keyframes check {
   from {
     margin-left: 110%;
   }
   to {
-    margin-left: 80%;
+    margin-left: 83%;
   }
 }
 @keyframes check-price {

@@ -71,6 +71,10 @@
     color: $primary;
     transform: scale(1);
     transition: 0.6s ease-out;
+    background: linear-gradient($primary, $second);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
@@ -83,7 +87,7 @@
   .fa-heart {
     margin-top: -55px;
     margin-right: 30px;
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
@@ -97,6 +101,10 @@
     color: $primary;
     transform: scale(1);
     transition: 0.6s ease-out;
+    background: linear-gradient($primary, $second);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
@@ -158,9 +166,10 @@
     position: relative;
     height: 90px;
     margin-top: -80px;
-    margin-left: 80%;
-    width: 100px;
+    margin-left: 90%;
+    width: 95px;
     animation: check 0.5s;
+    white-space: nowrap;
   }
   & .price {
     animation: check-price 0.5s;
@@ -170,6 +179,12 @@
     margin: 50% 16%;
     animation: check-rotate 0.5s;
   }
+
+  & .Meal-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 @keyframes check {
@@ -177,7 +192,7 @@
     margin-left: 110%;
   }
   to {
-    margin-left: 80%;
+    margin-left: 83%;
   }
 }
 
