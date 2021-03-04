@@ -120,7 +120,7 @@
   width: 67.5%;
 }
 .Meal-content:hover h5 {
-  width: 240px;
+  width: 85%;
 }
 
 @keyframes box-menu {
