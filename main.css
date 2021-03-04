@@ -59,7 +59,7 @@
   height: 100%;
   background-color: rgba(243, 243, 243, 0.9);
   animation: loader 100ms;
-  animation-delay: 4s;
+  animation-delay: 3s;
   animation-fill-mode: both;
 }
 
